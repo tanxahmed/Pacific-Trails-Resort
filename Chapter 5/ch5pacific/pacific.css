@@ -1,0 +1,64 @@
+body {
+  background-color: #ffffff;
+  color: #666666;
+  font-family: Arial;
+}
+
+header {
+/*it may be the version of the book i am using, but the declarations for background image sunset, position right and no repeat are not showing the sunset image in the header, as displayed in the image figure 5.24  let me know if this is not ok for some reason*/
+}
+
+h1 {
+ background-image: url(sunset.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  line-height: 200%;
+/*trying to be the same as the visual. so even though my book says 400%, i put 200% because it looks better and looks like the textbook example*/
+  background-color: #000033;
+  text-indent: 1em;
+  color: #ffffff;
+  font-family: Georgia;
+}
+
+nav {
+  background-color: #90c7e3;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+h2 {
+  color: #3399cc;
+  font-family: Georgia;
+}
+
+dt {
+  color: #000033;
+}
+
+.resort {
+  color: #5c7fa3;
+  font-weight: bold;
+}
+
+h3 {
+  color: #000033;
+  font-family: Georgia;
+}
+
+ul {
+  list-style-image: url('marker.gif');
+}
+
+footer {
+  font-size: 75%;
+  font-style: italic;
+  text-align: center;
+  font-family: Georgia;
+}
+
+.contact {
+  font-size: 90%;
+}

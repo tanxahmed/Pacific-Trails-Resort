@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  background-color: #b8dbed;
+  color: #666666;
+}
+
+#wrapper {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #90c7e3;
+  border-color: #000033;
+  border-style: solid;
+  border-width: 1px;
+  background-image: linear-gradient(to bottom, #ffffff, #90c7e3);
+  min-width: 960px;
+  max-width: 2048px;
+  box-shadow: 3px 3px 3px #333333;
+}
+
+header {
+  background-color: #000033;
+  color: #ffffff;
+  height: 120px;
+  padding-top: 15px; /*not doing 30px like the textbook because it will not look right */
+  padding-left: 3em;
+  text-align: center;
+}
+
+nav {
+  font-weight: bold;
+  padding: 1.5em;
+  font-size: 120%;
+  float: left;
+  width: 100px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+main {
+  padding-top: 1px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  display: block;
+  background: #ffffff;
+  margin-left: 190px;
+}
+
+h1 {
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: #000033;
+  line-height: 200%;
+  text-indent: 1em;
+  color: #ffffff;
+  font-family: Georgia;
+  font-size: 3em;
+  letter-spacing: 0.25em;
+}
+
+h2 {
+  background-color: #ffffff;
+  color: #3399cc;
+  font-family: Georgia;
+  text-shadow: 1px 1px 1px #cccccc;
+}
+
+h3 {
+  font-family: Georgia;
+}
+
+dt {
+  color: #000033;
+}
+
+main ul {
+  list-style-image: url(marker.gif);
+}
+
+footer {
+  font-size: 0.75em;
+  font-style: italic;
+  text-align: center;
+  font-family: Georgia;
+  padding: 20px;
+  /*margin-left: 190px; leaving this here because book says to, but commenting out because it isn't centered like the image in the textbook*/
+  background: #ffffff;
+}
+
+.resort {
+  color: #5c7fa3;
+  font-weight: bold;
+}
+
+#contact {
+  font-size: 0.9em;
+}
+
+#homehero {
+  height: 300px;
+  background-image: url(coast2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+ /*margin-left: 190px; leaving this here because book says to, but commenting out because it isn't centered like the image in the textbook*/
+}
+
+#yurthero {
+  height: 300px;
+  background-image: url(yurthero.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+/*margin-left: 190px; leaving this here because book says to, but commenting out because it isn't centered like the image in the textbook*/
+}
+
+#trailhero {
+  height: 300px;
+  background-image: url(trailhero.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+/*margin-left: 190px; leaving this here because book says to, but commenting out because it isn't centered like the image in the textbook*/
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  font: 1.2em;
+}
+
+nav a:link {
+  color: #5c7fa3;
+}
+
+nav a:visited {
+  color: #344873;
+}
+
+nav a:hover {
+  color: #a52a2a;
+}
